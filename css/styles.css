@@ -1,0 +1,1273 @@
+/* === Global === */
+
+
+body {
+  margin-top: 50px; 
+  font-family: 'Dosis', Helvetica, Arial, sans-serif !important;
+  letter-spacing: : 0.4px;
+  font-size: 1.4em; 
+  background: url('../img/background-pic.png') top left repeat;
+  color: #2f2d2d;
+}
+
+div.navbar-default .navbar-nav > li > a{
+  line-height: 25px; 
+  margin-top: 7px;
+}
+
+div.navbar-default .navbar-nav > li > a:hover
+ {
+  color: #f09432;
+}
+
+div.navbar-default .navbar-nav > li > a:visited {
+  color: #c6e3e0;
+}
+
+ul{
+  list-style-type: none;
+}
+
+
+/* === Layout === */
+
+/* Navigation */
+div.navbar-default {
+  background: #2e3e72; 
+  height: 80px; 
+}
+
+div.navbar-default .navbar-nav > li > a{
+  color: #c6e3e0;
+  font-size: 1.5em;
+}
+
+div.navbar-default .navbar-nav > .active > a {
+  background:none;
+  color: #c6e3e0;
+  border-bottom: 1px solid #c6e3e0;
+}
+
+div.navbar-default .navbar-nav > .active > a:hover {
+  color: #f09432;
+}
+
+/* JumboSection */
+
+section#jumbo-header{
+  width: 100%;
+  margin-top: 140px;
+}
+
+div.jumboPixHeader  {
+  background: url('../img/jumboPixHeader.png') no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 388px;
+  text-align: left;
+}
+
+div.jumbotext {
+  line-height: 38px;
+}
+
+div.jumbotext h1, div.jumbotext p {
+  color: white;
+  text-align: left;
+  padding-left: 13.7%; 
+  font-size: 2.5em;
+  font-weight: bold;
+  width: 88%; 
+}
+
+div.jumbotext h1{
+  color: #8e1b61;
+  padding-top: 100px;
+}
+
+
+a.btn-GotoGallery{
+  float:right;
+  margin: -5.5% 7% 0 0;
+  opacity: 0.95;
+}
+
+
+a.btn-GotoGallery:hover{
+  opacity: 1;
+}
+
+
+div.jumboPixGallery {
+  background: url('../img/jumboPixGallery.png') no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 388px;
+  text-align: left;
+}
+
+div.jumbotextGallery h1, div.jumbotextGallery p {
+  color: white;
+  text-align: left;
+  padding-left:13.7%; 
+  font-size: 2.5em;
+  font-weight: bold;
+  width: 88%; 
+}
+
+div.jumbotextGallery, div.jumbotextContact  {
+  line-height: 38px;
+}
+
+div.jumbotextGallery h1{
+  color: #8e1b61;
+  padding-top: 80px;
+}
+
+div.jumboPixContact  {
+  background: url('../img/jumboPixContact.png') no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 394px;
+  text-align: left;
+}
+
+div.jumbotextContact h1, div.jumbotextContact p {
+  color: #dcdcdc;
+  text-align: left;
+  padding-left:13.7%; 
+  font-size: 2.5em;
+  font-weight: bold;
+  width: 88%; 
+}
+
+
+div.jumbotextContact h1{
+  color: #8e1b61;
+  padding-top: 110px;
+}
+
+
+div.jumboPixLegal {
+  background: url('../img/jumbo_legal.png') no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 381px;
+  text-align: left;
+}
+
+div.jumbotextLegal h1, div.jumbotextLegal p {
+  color: black;
+  text-align: left;
+  padding-left:13.7%; 
+  font-size: 2.5em;
+  font-weight: bold;
+  width: 88%; 
+}
+
+
+div.jumbotextLegal h1{
+  color: #8e1b61;
+  padding-top: 110px;
+}
+
+/* Main Gallery Index*/
+div.contentIndex {
+  background: url('../img/contentBoxIndex.png') no-repeat;
+  width: 100%;
+  height: 881px;
+  margin:5% 0;
+  position: relative;
+  left: -0.1%;
+  background-position: top center;
+}
+
+div.picstart {
+  width: 225px;
+  position: relative;
+  top: 35%;
+  left: 20%; 
+}
+
+div.picstart img {
+  border: 6px solid black;
+  margin-bottom: 6px;
+}
+
+div.picstart p {
+  font-size: 1.2em;
+}
+
+div.contentGallery{
+  background: url('../img/contentBoxGallery.png') no-repeat;
+  width: 100%;
+  height: 1148px;
+  margin:5% 0;
+  position: relative;
+  left: -0.1%;
+  background-position: top center; 
+}
+
+div.thumbnails {
+  position: relative;
+  left: 42.3%;
+  top: 240px;
+  width: 70%;
+  height: 150%;
+}
+
+div.imgGallery {
+  position: absolute;
+  top: 23px;
+  left: 10.1%;
+}
+
+div.imgGallery span{
+  display:block;
+  margin-bottom: 63px; 
+}
+
+span.pic-group1 img, span.pic-group2 img, span.pic-group3 img{
+  margin-bottom: 3px; 
+}
+
+a.btn-picClick {
+  position: absolute;
+  left: -15.3%;
+}
+
+div.pics-content {
+  width: 56%;
+  position: relative;
+  top: 220px;
+  left: 12%;
+}
+
+div.descriptions {
+  margin-top: 25px;
+  font-size: 1.3em;
+  line-height: 23px;
+}
+
+div.descriptions h4 {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+img.skip-button {
+  position: absolute;
+  top: 681px;
+  left: 0;
+}
+
+img.back-button {
+  position: absolute;
+  top: 681px;
+  left: 22%;
+}
+
+div.jumboPixTechniques {
+  background: url('../img/jumboPixHeaderTechniques.png')  no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 388px;
+  text-align: left;
+}
+
+div.jumbotextTechniques {
+  line-height: 38px;
+}
+
+div.jumbotextTechniques h1, div.jumbotextTechniques p {
+  color: white;
+  text-align: left;
+  padding-left: 13.7%; 
+  font-size: 2.5em;
+  font-weight: bold;
+  width: 88%; 
+}
+
+div.jumbotextTechniques h1{
+  color: #8e1b61;
+  padding-top: 100px;
+}
+
+div.contentTechniques {
+  background: url('../img/contentBoxTechniques.png') no-repeat;
+  width: 100%;
+  height: 1148px;
+  margin:5% 0;
+  position: relative;
+  left: -0.1%;
+  background-position: top center;
+}
+
+div.explanation {
+  font-size:1.25em;
+  width: 53%;
+  text-align: left;
+  margin-left: 32%;
+  padding-top: 190px;
+}
+
+div.explanation h4{
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+div.list-flower {
+  width: 20px;
+  height: 300px;
+  position: relative;
+  top: -420px;
+}
+
+img#listsymbol1{
+  margin-bottom: 34px;
+}
+
+img#listsymbol2{
+  margin-bottom: 81px;
+}
+img#listsymbol3{
+  margin-bottom: 76px;
+}
+
+img#listsymbol4{
+  margin-bottom: 34px;
+}
+img#listsymbol5{
+  margin-bottom: 31px;
+}
+
+div.devpics {
+  position: relative;
+  top: 230px;
+  left: -18%;
+}
+
+div.devpics img {
+  margin: 5px 5px 10px 5px;
+  display: block; 
+}
+
+.btn-picsdemo {
+  position: relative;
+  top: 15px;
+  left: -14%;
+} 
+
+div.overlay1, div.overlay2, div.overlay3, div.overlay4 {
+  background: url('../img/overlay.png') no-repeat;
+  width: 110%;
+  height: 544px;
+  position: absolute;
+  top: 280px;
+  left: -53%;
+}
+
+img.overlaypic {
+  position: absolute;
+  top: 75px;
+  left: 21%;
+}
+
+ul.nav-overlay {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  position: absolute;
+  top: 428px;
+  left: 20%;
+}
+ul.nav-overlay li {
+  display:inline;
+}
+
+
+ul.nav-overlay li:nth-child(2){
+  margin-right: 126px;
+}
+
+div.contentBoxContact{
+  background: url('../img/contentBoxContact.png') no-repeat;
+  width: 100%;
+  height: 881px;
+  margin:5% 0;
+  position: relative;
+  left: -0.1%;
+  background-position: top center;
+}
+
+div.contact-heading h3 {
+  margin: 150px 0 -70px 170px;
+}
+
+form.contactform {
+  width: 83.5%;
+  text-align: center;
+}
+
+input.submit-btn {
+  position: absolute;
+  top: 560px;
+  left: 788px;
+}
+
+div.form-group {
+  text-align: left;
+
+}
+
+div.form-group label {
+  font-size: 0.8em;
+  font-weight:normal;
+}
+
+span#inputError2Status{
+  color:red;
+  font-size: 0.8em;
+  padding:0;
+  margin:0;
+}
+
+div.contentLegal  {
+  background: url('../img/contentBoxLegal.png') no-repeat;
+  width: 100%;
+  height: 881px;
+  margin:5% 0;
+  position: relative;
+  left: -0.1%;
+  background-position: top center;
+}
+
+
+div.legal-note {
+  text-align: left;
+  margin-left: 170px;
+  padding-top: 180px;
+}
+
+
+div.legal-note h3 {
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+div.legal-note p {
+  font-size: 1.35em;
+  font-weight: normal;
+}
+
+/* Footer */
+
+div.footerBox {
+  background: url('../img/footerBox.png') no-repeat;
+  background-position: top center;
+  width: 100%;
+  height: 281px;
+  position:relative;
+  left: 0.8%;
+}
+
+
+div.footer-content {
+  text-align: left;
+  width: 300px; 
+  position: relative;
+  left: 12.5%;
+  top: 20%;
+  float:left;
+}
+
+ul.nav-footer li {
+  margin-bottom: 5px;
+}
+
+
+ul.nav-footer li a, span.soc-media {
+  margin-left: 10px;
+  font-size: 1.15em;
+}
+
+
+
+ul.nav-socmedia li  {
+  margin-bottom: 13px;
+}
+
+
+span.follow {
+  font-size: 1.15em;
+}
+
+div.footer-content p {
+  margin: 54% 4% 0 0;
+  float:right;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 1200px) {
+  
+  div.jumbotext h1, div.jumbotext p, div.jumbotextGallery h1, div.jumbotextGallery p {
+    padding-left: 6.7%; 
+    font-size: 2.2em;
+  }
+
+  a.btn-GotoGallery{
+    margin: -8.5% -3% 0 0;
+  }
+
+  div.picstart {
+    width: 225px;
+    position: relative;
+    top: 35%;
+    left: 12%; 
+  }
+
+  div.footer-content p {
+    margin: 54% 35% 0 0;
+    float:right;
+  }
+
+  div.thumbnails {
+    position: relative;
+    left: 20%;
+    width: 75%;
+  }
+
+  div.imgGallery {
+    position: absolute;
+    top: 23px;
+    left: 11.5%;
+  }
+
+  a.btn-picClick {
+    position: absolute;
+    left: -17.5%;
+  }
+
+  div.descriptions {
+    margin-top: 25px;
+    font-size: 1.15em;
+    line-height: 21.5px;
+  }
+
+  div.descriptions h4 {
+    font-size: 1.254em;
+    font-weight: bold;
+  }
+
+  img.skip-button {
+    position: absolute;
+    left: 0;
+  }
+
+  img.back-button {
+    position: absolute;
+    left: 27%;
+  }
+
+  div.explanation {
+    font-size:1.1em;
+    text-align: left;
+    margin-left: 26%;
+    padding-top: 190px;
+  }
+
+  div.explanation h4{
+    font-weight: bold;
+    font-size: 1.15em;
+  }
+
+  div.list-flower {
+    width: 20px;
+    height: 300px;
+    position: relative;
+    top: -420px;
+  }
+
+  img#listsymbol1{
+    margin-top: 37px;
+    margin-bottom: 26px;
+  }
+
+  img#listsymbol2{
+    margin-bottom: 88px;
+  }
+  img#listsymbol3{
+    margin-bottom: 69px;
+  }
+
+  img#listsymbol4{
+    margin-bottom: 27px;
+  }
+  img#listsymbol5{
+    margin-bottom: 24px;
+  }
+
+
+.btn-picsdemo {
+  position: relative;
+  top: 15px;
+  left: -14%;
+} 
+
+input.submit-btn {
+  position: absolute;
+  top: 560px;
+  left: 620px;
+}
+
+div.overlay1, div.overlay2, div.overlay3, div.overlay4 {
+  width: 130%;
+  height: 544px;
+  position: absolute;
+  top: 280px;
+  left: -60%;
+}
+
+
+}
+
+@media (max-width: 991px) {
+ 
+
+  a.btn-GotoGallery{
+    display: none;
+  }
+
+  div.jumboPixHeader {
+    background: url('../img/jumbo_mini.png') no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 286px;
+    text-align: left;
+  }
+
+  div.contentIndex {
+    background: url('../img/contentBoxIndex_mini.png') no-repeat;
+    width: 100%;
+    height: 967px;
+    margin-bottom: -30%;
+  }
+
+ 
+
+  div.jumbotext h1, div.jumbotext p, div.jumbotextGallery h1, div.jumbotextGallery p {
+    padding-left: 8%; 
+    font-size: 2em;
+    line-height: 28px;
+    position: relative;
+    top: -25px;
+  }
+
+
+  div.picstart {
+    width: 225px;
+    position: relative;
+    top: 25%;
+    left: -11%; 
+    float: right;
+    margin-right: -40px;
+  }
+  div.picstart img {
+    width: 60%;
+    height: 60%;
+  }
+
+  div.picstart p{
+    width: 70%;
+  }
+
+  div.jumboPixGallery {
+    background: url('../img/jumboPixGallery_small.png') no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 274px;
+    text-align: left;;
+  }
+
+  div.contentGallery{
+    background: none; 
+    height: 1200px;
+  }
+
+  div.backgroundPics {
+    display: none;
+  }
+
+  div.thumbnails {
+    position: relative;
+    left: 15%;
+    top: 50px;
+  }
+
+div.imgGallery {
+  position: absolute;
+  top: 23px;
+  left: -11%;
+}
+
+span.pic-group1 img, span.pic-group2 img, span.pic-group3 img{
+  margin-bottom: 3px;
+  display:block;
+}
+
+a.btn-picClick {
+  position: absolute;
+  top: 965px;
+}
+
+
+div.pics-content {
+  position: relative;
+  top: 80px;
+  left: 32%;
+}
+
+
+  div.jumboPixTechniques {
+    background: url('../img/jumboPixTechniques_small.png')  no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 350px;
+    text-align: left;
+  }
+
+  div.jumbotextTechniques {
+    line-height: 29px;
+  }
+
+  div.jumbotextTechniques h1, div.jumbotextTechniques p {
+    padding-left: 8.7%; 
+    font-size: 2em;
+    font-weight: bold;
+    width: 88%; 
+  }
+
+  div.jumbotextTechniques h1{
+    padding-top: -120px;
+  }
+
+  div.contentTechniques {
+  background: url('../img/contentBoxTechniques_small.png') no-repeat;
+  width: 100%;
+  height: 899px;
+  margin:5% 0;
+  position: relative;
+  left: -0.1%;
+  background-position: top center;
+}
+
+div.explanation {
+  font-size:1.05em;
+  width: 60%;
+  text-align: left;
+  margin-left: 20%;
+  padding-top: 150px;
+  line-height: 18px;
+}
+
+div.explanation h4{
+  font-size: 1.1em;
+}
+
+
+img#listsymbol1{
+  margin-top: 135px;
+  margin-bottom: 5px;
+}
+
+img#listsymbol2{
+  margin-bottom: 59px;
+}
+img#listsymbol3{
+  margin-bottom: 56px;
+}
+
+img#listsymbol4{
+  margin-bottom: 20px;
+}
+img#listsymbol5{
+  margin-bottom: 18px;
+}
+
+
+div.devpics img.demopics {
+  display:none;
+}
+
+.btn-picsdemo {
+  position: absolute;
+  top: -540px;
+  left: 34.5%;
+} 
+
+div.overlay1, div.overlay2, div.overlay3, div.overlay4 {
+  background: url('../img/overlay.png') no-repeat;
+  width: 110%;
+  height: 544px;
+  position: absolute;
+  top: -812px;
+  left: 12%;
+}
+
+img.overlaypic {
+  position: absolute;
+  top: 75px;
+  left: 11%;
+}
+
+ul.nav-overlay {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  position: absolute;
+  top: 428px;
+  left: 10%;
+}
+ul.nav-overlay li {
+  display:inline;
+}
+
+
+ul.nav-overlay li:nth-child(2){
+  margin-right: 126px;
+}
+
+  div.jumboPixLegal {
+    background: url('../img/jumbo_legal_small.png') no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 294px;
+    text-align: left;
+  }
+
+  div.contentLegal {
+    background:none;
+  }
+
+
+  div.jumbotextLegal {
+    line-height: 29px;
+  }
+
+  div.jumbotextLegal h1, div.jumbotextLegal p {
+    padding-left: 8.7%; 
+    font-size: 2em;
+    font-weight: bold;
+    width: 88%; 
+  }
+
+  div.jumbotextLegal h1{
+    padding-top: -120px;
+  }
+
+  div.footerBox {
+    background: url('../img/footerBox_mini.png') no-repeat;
+    background-position: top center;
+    width: 100%;
+    height: 212px;
+    position:relative;
+    left: -0.2%;
+  }
+
+  div.footer-content {
+    text-align: left;
+    width: 250px; 
+    float: left;
+    margin-top: -2%;
+  }
+
+  ul.nav-footer li {
+    margin-left: -45%;
+  }
+  ul.nav-socmedia li  {
+    float: none;
+    margin-left: -65%;
+  }
+
+  div.footer-content p {
+    position: relative;
+    left: 205%;
+    top: -142px;
+    width: 90%;
+  }
+
+  div.jumboPixContact {
+    background: url('../img/jumboPixContact_small.png') no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 286px;
+    text-align: left;
+  }
+
+   div.jumbotextContact h1, div.jumbotextContact p{
+      font-size: 2em;
+     width: 88%;
+     line-height: 28px;
+      position: relative;
+      top: -45px;
+      left: -3%;
+   }
+
+ div.contentBoxContact {
+    background: url('../img/contentBoxContact_small.png') no-repeat;
+    width: 100%;
+    height: 967px;
+    margin-bottom: -30%;
+  }
+
+  div.contact-heading h3 {
+    margin: 100px 0 -70px 75px;
+  }
+
+  form.contactform {
+    width: 83.5%;
+    text-align: center;
+  }
+
+  input.submit-btn {
+    position: absolute;
+    top: 454px;
+    left: 58%;
+  }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+  
+}
+
+@media (max-width: 768px) {
+
+  div.navbar-collapse {
+    background: url('../img/background-pic.png') top left repeat;
+    margin-top: 31px;
+    height: 190px;
+    font-size: 0.9em;
+  }
+
+  ul.navbar-nav li a{
+    padding: 1px 20px;
+  }
+
+  div.navbar-default .navbar-nav > .active > a {
+  border-bottom: none;
+  }
+
+   div.jumboPixHeader {
+    background: url('../img/jumbo_supersmall.png') no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 204px;
+    text-align: left;
+  }
+
+
+div.jumbotext h1, div.jumbotext p, div.jumbotextGallery h1, div.jumbotextGallery p {
+    padding-left: 9%; 
+    font-size: 1.6em;
+    line-height: 21px;
+    position: relative;
+    top: -48px;
+  }
+
+   div.contentIndex {
+    background: url('../img/contentBoxIndex_supersmall.png') no-repeat;
+    margin: 10% 0 -48% 0;
+  }
+
+   div.picstart {
+    width: 225px;
+    position: relative;
+    top: 21%;
+    left: -6.5%; 
+    float: right;
+    margin-right: -50px;
+  }
+
+
+   div.contentIndex {
+    background: none;
+  }
+
+  div.jumboPixGallery {
+    background: url('../img/jumboPixGallery_mini.png') no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 201px;
+    text-align: left;
+  }
+
+ div.contentTechniques {
+    background: none;
+  }
+
+
+  div.footerBox {
+    background: url('../img/footerMobile.png');
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    top: 1600px;
+    left: 0;
+    margin:0;
+  }
+
+  ul.nav-footer  {
+    margin-bottom: 55px;
+  }
+  ul.nav-socmedia li  {
+    clear: both;
+    float:left;
+  }
+
+  ul.nav-socmedia   {
+    margin: 0 55px 0 38px;
+    clear: both;
+    float:left;
+  }
+
+  div.footer-content p {
+   clear:both;
+  position: absolute;
+  top: -35px;
+  left: -32px;
+  }
+
+  div.contentBoxContact {
+    background: none;
+  }
+  
+  input.submit-btn {
+    max-width: 88%;
+    position: absolute;
+    top: 479px;
+    left: 54%;
+    text-align:right;
+  }
+}
+
+
+@media (max-width: 568px) {
+  div.jumbotext h1, div.jumbotext p, div.jumbotextGallery h1, 
+  div.jumbotextGallery p, div.jumbotextTechniques h1, div.jumbotextTechniques p {
+    padding-left: 6%; 
+    font-size: 1.3em;
+    line-height: 23px;
+    position: relative;
+    top: -60px;
+  }
+
+  div.jumbotextTechniques h1{
+    padding-top: 150px;
+  }
+
+
+div.explanation {
+  font-size:1.05em;
+  width: 75%;
+  text-align: left;
+  margin-left: 20%;
+  padding-top: 150px;
+  line-height: 18px;
+}
+
+div.explanation h4{
+  font-size: 1.1em;
+}
+
+div.overlay1, div.overlay2, div.overlay3, div.overlay4 {
+  background: url('../img/overlay.png') no-repeat;
+  width: 110%;
+  height: 544px;
+  position: absolute;
+  top: -900px;
+  left: 1%;
+}
+
+img.overlaypic {
+  position: absolute;
+  top: 75px;
+  left:18.5%;
+}
+
+ul.nav-overlay {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  position: absolute;
+  top: 428px;
+  left: 17.5%;
+}
+ul.nav-overlay li {
+  display:inline;
+}
+
+
+ul.nav-overlay li:nth-child(2){
+  margin-right: 126px;
+}
+
+
+  div.jumboPixContact {
+    background: url('../img/jumboPixContact_supasmall.png') no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 157px;
+    text-align: left;
+    margin-bottom: -120px;
+  }
+
+   div.jumbotextContact h1, div.jumbotextLegal h1, div.jumbotextContact p, div.jumbotextLegal p{
+       padding-left: 17%; 
+    font-size: 1.1em;
+    line-height: 15px;
+    position: relative;
+    top: -68px;
+   }
+
+  div.contact-heading h3 {
+    margin: 150px 0 -70px 75px;
+  }
+
+  form.contactform {
+    width: 83.5%;
+    text-align: center;
+  }
+
+  input.submit-btn {
+    position: absolute;
+    top: 525px;
+    left: 48%;
+  }
+
+  div.jumboPixLegal {
+    background: url('../img/jumbo_legal_mini.png') no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 177px;
+    text-align: left;
+    margin-bottom: -120px;
+  }
+
+  div.legal-note h3, div.legal-note p {
+    margin-left: -100px;
+  }
+
+  img.skip-button {
+    position: absolute;
+    top: 900px;
+    left: 0;
+  }
+  img.back-button {
+    position: absolute;
+    top: 900px;
+    left: 42%;
+  }
+  
+}
+
+@media (max-width: 500px) {
+ 
+
+ div.jumboPixHeader {
+    background: url('../img/jumbo_superdupasmall.png') no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 204px;
+    text-align: left;
+    margin-bottom: -120px;
+  }
+
+  div.jumboPixGallery {
+    background: url('../img/jumboPixGallery_supersmall.png') no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 150px;
+    text-align: left;
+  }
+
+  div.jumbotext h1, div.jumbotext p, div.jumbotextGallery h1, div.jumbotextGallery p {
+    padding-left: 7%; 
+    font-size: 1.1em;
+    line-height: 15px;
+    position: relative;
+    top: -40px;
+  }
+
+  div.imgGallery {
+    display:none;
+  }
+
+  div.pics-content {
+    width: 70%;
+    position: relative;
+    top: 120px;
+    left: 12%;
+  }
+   
+  
+  div.picstart { 
+   clear: both;
+   float:left;
+   margin-left: 40%;
+  }
+
+
+div.jumboPixTechniques {
+    background: url('../img/jumboPixTechniques_supersmall.png')  no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 185px;
+    text-align: left;
+  }
+   div.jumbotextTechniques h1, div.jumbotextTechniques p {
+    padding-left: 6%; 
+    font-size: 1.2em;
+    line-height: 17px;
+    position: relative;
+    top: -60px;
+  }
+
+div.jumbotextTechniques h1{
+    padding-top:110px;
+  }
+
+
+div.explanation {
+  margin-left: 11%;
+}
+
+div.explanation h4{
+  font-size: 1.1em;
+}
+
+div.overlay1, div.overlay2, div.overlay3, div.overlay4 {
+  position: absolute;
+  top: -900px;
+  left: -8%;
+}
+
+img.overlaypic {
+  position: absolute;
+  top: 75px;
+  left:19%;
+}
+
+ul.nav-overlay {
+  position: absolute;
+  top: 428px;
+  left: 18%;
+}
+
+
+ input.submit-btn {
+    position: absolute;
+    top: 560px;
+    left: 30%;
+  }
+
+
+}
